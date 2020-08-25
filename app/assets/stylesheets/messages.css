@@ -11,13 +11,37 @@
 .side-header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name a{
+  font-size: 16px;
+  color: #fafafa;
+}
+.create a{
+  font-size: 10px;
+  text-decoration: none;
+
+}
+.make-chatroom a{
+  padding: 14px;
+  border: 1px solid lightblue;
+  color:deepskyblue;
+  text-decoration: none;
 }
 
 .side-main{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
-
+}
+.room{
+  padding:20px 0 40px;
+}
+.room-name a{
+  text-decoration: none;
+  color: white;
 }
 
 
