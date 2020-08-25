@@ -1,0 +1,142 @@
+.wrapper{
+  display: flex;
+}
+
+.sidebar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.side-header{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fafafa;
+}
+.create a{
+  font-size: 10px;
+  text-decoration: none;
+
+}
+.make-chatroom a{
+  padding: 14px;
+  border: 1px solid lightblue;
+  color:deepskyblue;
+  text-decoration: none;
+}
+
+.side-main{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding:20px 0 40px;
+}
+.room-name a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.main{
+  width: calc(100vw - 300px);
+  background-color: #fff;
+}
+
+.main-header{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group p{
+  font-size: 24px;
+  margin-top: 36px;
+  color: #333;
+}
+.endbutton{
+  margin-top: 40px;
+}
+.endbutton a{
+  text-decoration: none;
+  color: darkred;
+  padding:20px;
+  border: 1px solid darkred;
+}
+.mainchat{
+  background-color: #fafafa;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+.message-box{
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+.sender-info{
+  display: flex;
+}
+.sender{
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+.time{
+  font-size: 12px;
+  color: #999;
+}
+.message{
+  font-size: 14px;
+  color: #434a54;
+  margin-top: 10px;
+}
+.main-footer{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+}
+.message-form{
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+.message-input{
+  border: none;
+  width: 100%;
+  padding-left: 10px;
+  height: 50px;
+}
+.message-commit{
+  height: 50px;
+  background-color: #38aef0;
+  border: none;
+  padding: 0 20px;
+  margin-left: 15px;
+  font-size: 16px;
+  color: white;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
